@@ -37,3 +37,5 @@ fase1-viajes/
   frontend/    ← React + Vite
   backend/     ← Express + PostgreSQL
 ```
+## captura de pantalla de la fase 2
+![alt text](image-1.png)
