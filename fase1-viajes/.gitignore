@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Base de datos
+*.sqlite
+*.db
+
+# Variables de entorno
+.env
+
+# Vite
+frontend/dist/
+frontend/.env
+
+# Sistema
+.DS_Store
+Thumbs.db

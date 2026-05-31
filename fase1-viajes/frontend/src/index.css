@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #f0f4f8;
+  --color-surface: #ffffff;
+  --color-text: #1a1a2e;
+  --color-text-secondary: #555577;
+  --color-primary: #0077B6;
+  --color-danger: #e53935;
+}
+
+body[data-theme='oscuro'] {
+  --color-bg: #121212;
+  --color-surface: #1e1e1e;
+  --color-text: #f0f0f0;
+  --color-text-secondary: #aaaacc;
+  --color-primary: #90CAF9;
+  --color-danger: #ef9a9a;
+}
+
+body {
+  font-family: sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}
+
+input, select, textarea, button {
+  font-family: sans-serif;
+}
